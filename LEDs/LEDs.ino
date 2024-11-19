@@ -6,7 +6,7 @@ ArduinoLEDMatrix matrix; // Declaring the matrix obj
 
 // METHOD N1: HARDEST ONE
 // This constant declares an array of 32-bit integers that will translate as a drawing of a Happy face
-// This is the hardest method to understand which leds are turning on, to understand which arduino left a code snippet online to translate METHOD N1 to METHOD N2
+// This is the hardest method to understand which leds are turning on, to understand which arduino left a code snippet online to translate METHOD N1 to METHOD N3
 const uint32_t happy[] = {
   0x19819,
   0x80000001,
