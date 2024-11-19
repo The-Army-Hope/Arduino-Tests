@@ -51,8 +51,7 @@ const uint32_t heart[] = {
 
 void setup() {
   matrix.begin(); // Starting the matrix
-
-  // This Arduino offers the possibility to also type stuff on the leds through the ArduinoGraphics library too!
+  // This Arduino offers the possibility to also type stuff on the leds through the ArduinoGraphics library!
 }
 
 void loop() {
