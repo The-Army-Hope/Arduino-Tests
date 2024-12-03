@@ -1,2 +1,2 @@
 # WARNING
-Make sure to test first the LEDs Matrix test first [here](LEDs)!!
+Make sure to check first the LEDs Matrix [here](LEDs)!!
