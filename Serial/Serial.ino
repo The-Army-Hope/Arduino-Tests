@@ -1,6 +1,5 @@
 // Test ran and notes written by Nex_isDumb
-// PS 1: CHECK THE LEDS EXAMPLE BEFORE THIS!!
-// PS 2: Some of the base testing code was taken from here https://github.com/misan/UNOR4text/ but it could have been also done easily through the ArduinoGraphics lib
+// NOTE: Some of the base testing code was taken from here https://github.com/misan/UNOR4text/ but it could have been also done easily through the ArduinoGraphics lib
 
 #include "font8x8_basic.h"
 #include "Arduino_LED_Matrix.h"

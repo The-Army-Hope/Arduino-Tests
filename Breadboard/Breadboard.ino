@@ -1,6 +1,5 @@
 // Test ran by Nex_isDumb
-// NOTE: It's best to put the cables and the resistance like the image in the same folder of this file,
-// if you place one MORE resistance the electricity is gonna be low and the LED won't light that much, if you REMOVE one you'll generate a short circuit!!
+// NOTE: If you place one MORE resistance the electricity is gonna be low and the LED won't light that much, if you REMOVE one you'll generate a short circuit!!
 
 const int LED_PIN = 2;     // The LED's pin
 const int BUTTON_PIN = 3;  // The Button's Pin
