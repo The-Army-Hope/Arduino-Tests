@@ -31,9 +31,9 @@ void loop() {
     String text = " " + Serial.readStringUntil('\n'); + " ";  // Reading until there's a new line and placing two spaces at the start and at the end for better visualization
     Serial.println("Writing:" + text);
 
-    for(int i = 0; i < text.length(); i++)
-      for(int row = 0; row < 8; row++) {
-        for(int col = 0; col < 8; col++)
+    for (int i = 0; i < text.length(); i++)
+      for (int row = 0; row < 8; row++) {
+        for (int col = 0; col < 8; col++)
           frame[col][11] = (font8x8_basic[text[i]][col] >> row) & 1; // Displaying the font: I need to rotate colums as font is given as rows instead of columns
 
         left_scroll();
@@ -44,8 +44,8 @@ void loop() {
 }
 
 void left_scroll() { // Moves the message on the left by one pixel and then waits [WAIT_TIME] ms
-  for(int col=0; col<11; col++)
-    for(int row=0; row<8; row++)
+  for(int col = 0; col < 11; col++)
+    for(int row = 0; row < 8; row++)
       frame[row][col] = frame[row][col+1];
 
   matrix.renderBitmap(frame, 8, 12);
